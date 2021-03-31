@@ -18,7 +18,7 @@ public class TellerController {
                     Integer itm = 1;
                             System.out.println("=== Daftar antrian ===");
         if(this.queues.showAll().size() == 0) {
-                    System.out.printf 
+                    System.out.println("Harus mengantri");
                             } else {
                                         for(ArrayList<String> queueList : this.queues.showAll()) {
                                                         System.out.println("---- Jalur " + list + " ----");
@@ -65,4 +65,4 @@ public class TellerController {
                                                 }
                                                     }
                                                     }
-                                         
+                                                    
